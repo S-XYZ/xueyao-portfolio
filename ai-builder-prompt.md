@@ -267,7 +267,6 @@ Contact (/contact)
       - Description: "Code repositories for selected software, data engineering, and web application projects."
       - Layout Design Context: "compact"
       - Tags: ""
-      - Image Source URL: `https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80`
       - Interactivity Behavior:
         - Mode: **external** | Action Label: "VIEW GITHUB →" | External URL: `https://github.com/DI0NY`
 

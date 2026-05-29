@@ -4,7 +4,7 @@
     "id": "project-7g2h3k1",
     "name": "XZ Builds",
     "createdAt": "2023-10-04T12:00:00Z",
-    "updatedAt": "2026-05-29T02:39:19.727Z",
+    "updatedAt": "2026-05-29T02:49:50.770Z",
     "themeNotes": "The site adopts a clean and structured aesthetic with high contrast elements, focusing on a minimalist design that emphasizes the user's engineering background. The layout is functional, with a focus on showcasing projects and technical skills.",
     "answers": {
       "websiteType": "个人作品集",
@@ -484,7 +484,7 @@
                   "id": "w2rdlsr",
                   "title": "GitHub",
                   "description": "Code repositories for selected software, data engineering, and web application projects.",
-                  "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80",
+                  "imageUrl": "",
                   "tags": [
                     ""
                   ],
@@ -496,7 +496,8 @@
                     "modalBody": "Code repositories for selected software, data engineering, and web application projects.",
                     "expandedContent": "Expanded inline details content loaded with high efficiency metrics.",
                     "actionLabel": "VIEW GITHUB →"
-                  }
+                  },
+                  "image": ""
                 }
               ]
             },
@@ -532,7 +533,7 @@
     }
   },
   "editorState": {
-    "activePageId": "page-home",
+    "activePageId": "page-contact",
     "currentTab": "WebsitePreview"
   }
 }

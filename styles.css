@@ -310,12 +310,25 @@ footer.site-footer {
 /* Text Section */
 .text-section {
   max-width: 800px;
-  margin: 0 auto;
+  width: 100%;
 }
 
-.text-section.text-center {
-  margin-left: auto;
-  margin-right: auto;
+.text-section.align-left {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  text-align: left !important;
+}
+
+.text-section.align-center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+.text-section.align-right {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+  text-align: right !important;
 }
 
 .badge {

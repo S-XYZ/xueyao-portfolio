@@ -4,7 +4,7 @@
     "id": "project-7g2h3k1",
     "name": "XZ Builds",
     "createdAt": "2023-10-04T12:00:00Z",
-    "updatedAt": "2026-05-29T02:49:50.770Z",
+    "updatedAt": "2026-05-29T02:55:21.878Z",
     "themeNotes": "The site adopts a clean and structured aesthetic with high contrast elements, focusing on a minimalist design that emphasizes the user's engineering background. The layout is functional, with a focus on showcasing projects and technical skills.",
     "answers": {
       "websiteType": "个人作品集",
@@ -533,7 +533,7 @@
     }
   },
   "editorState": {
-    "activePageId": "page-contact",
+    "activePageId": "page-home",
     "currentTab": "WebsitePreview"
   }
 }

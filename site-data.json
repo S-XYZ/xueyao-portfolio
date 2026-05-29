@@ -1,0 +1,538 @@
+{
+  "schemaVersion": "0.1.0",
+  "project": {
+    "id": "project-7g2h3k1",
+    "name": "XZ Builds",
+    "createdAt": "2023-10-04T12:00:00Z",
+    "updatedAt": "2026-05-29T02:39:19.727Z",
+    "themeNotes": "The site adopts a clean and structured aesthetic with high contrast elements, focusing on a minimalist design that emphasizes the user's engineering background. The layout is functional, with a focus on showcasing projects and technical skills.",
+    "answers": {
+      "websiteType": "个人作品集",
+      "targetUsers": "潜在雇主、同行、技术爱好者",
+      "mainGoal": "展示个人项目和技术能力",
+      "desiredPages": [
+        "Home",
+        "About",
+        "Projects",
+        "Skills",
+        "Contact"
+      ],
+      "visualStyle": "Minimalist Slate",
+      "keyFeatures": "清晰的项目展示、个人介绍、技术栈展示、联系信息",
+      "tone": "专业、简洁、直接"
+    },
+    "brief": {
+      "executiveSummary": "该网站旨在展示个人的工程项目和技术能力，吸引潜在雇主和同行的注意。通过简洁的设计和清晰的内容结构，用户能够快速了解我的背景和专业技能。",
+      "userPersonas": [
+        {
+          "role": "求职者",
+          "needs": "展示个人能力和项目经验",
+          "painPoint": "缺乏有效的展示平台"
+        }
+      ],
+      "coreValueProposition": "通过专业的作品集展示，提升个人品牌形象",
+      "keyFeaturesList": [
+        {
+          "name": "项目展示",
+          "description": "详细展示个人项目的功能和技术实现",
+          "priority": "High"
+        },
+        {
+          "name": "技术栈展示",
+          "description": "清晰列出掌握的技术和工具",
+          "priority": "Medium"
+        },
+        {
+          "name": "个人介绍",
+          "description": "简要介绍个人背景和教育经历",
+          "priority": "High"
+        }
+      ],
+      "successMetrics": [
+        "增加简历投递的反馈率"
+      ]
+    },
+    "pages": [
+      {
+        "id": "page-home",
+        "name": "Home",
+        "slug": "home",
+        "blocks": [
+          {
+            "id": "block-hero",
+            "type": "Hero",
+            "content": {
+              "title": "Building reliable data systems and web tools.",
+              "subtitle": "I work across data engineering, backend development, analytics, and deployed product-facing applications.",
+              "buttons": [
+                {
+                  "id": "btn-abc123",
+                  "label": "View Projects",
+                  "actionType": "page",
+                  "target": "projects"
+                }
+              ]
+            },
+            "style": {
+              "padding": "medium",
+              "bgAccent": false
+            }
+          },
+          {
+            "id": "block-intro",
+            "type": "TextSection",
+            "content": {
+              "title": "About Me",
+              "subtitle": "",
+              "text": "I’m Xueyao Zhao, an Information Systems graduate focused on data engineering, backend development, and practical web applications. My work connects data workflows, system design, and user-facing tools.",
+              "align": "left"
+            },
+            "style": {
+              "padding": "medium",
+              "bgAccent": false,
+              "borderTop": false
+            }
+          },
+          {
+            "id": "2ocz4xg",
+            "type": "TextSection",
+            "content": {
+              "title": "Built with All You Can Make",
+              "subtitle": "BUILT WITH MY OWN TOOL",
+              "text": "This portfolio is also a live use case of All You Can Make, my modular website design system. It turns guided inputs or AI prompts into generated site structures, editable blocks, live previews, and export-ready static HTML.",
+              "align": "left"
+            },
+            "style": {
+              "padding": "medium",
+              "bgAccent": false,
+              "cardStyle": "flat",
+              "borderTop": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "page-about",
+        "name": "About",
+        "slug": "about",
+        "blocks": [
+          {
+            "id": "rhl7a94",
+            "type": "Collection",
+            "content": {
+              "title": "Educational Background",
+              "subtitle": "An interdisciplinary background in Information Systems, Economics, and Data Science, focused on data engineering, system design, and applied analytics.",
+              "items": [
+                {
+                  "id": "fhzm0ez",
+                  "title": "New York University",
+                  "description": "Master's degree in Information Systems",
+                  "imageUrl": "",
+                  "tags": [
+                    "Courant Institute",
+                    "Stern Business School"
+                  ],
+                  "metadata": {
+                    "Year": "2026",
+                    "Major": "Information Systems"
+                  },
+                  "detailBehavior": {
+                    "mode": "none"
+                  },
+                  "image": ""
+                },
+                {
+                  "id": "3rl9wqz",
+                  "title": "Northeastern University",
+                  "description": "Bachelor's degree in Economics with a minor in Data Science",
+                  "imageUrl": "",
+                  "tags": [
+                    "CSSH"
+                  ],
+                  "metadata": {
+                    "Year": "2024",
+                    "Major": "Economics",
+                    "Minor": "Data Science"
+                  },
+                  "detailBehavior": {
+                    "mode": "none"
+                  },
+                  "image": ""
+                }
+              ]
+            },
+            "style": {
+              "padding": "medium",
+              "bgAccent": false,
+              "cardStyle": "flat",
+              "borderTop": false
+            },
+            "settings": {
+              "layout": "compact",
+              "columns": 3,
+              "showTags": true,
+              "showMetadata": true
+            }
+          },
+          {
+            "id": "1jy7slt",
+            "type": "Collection",
+            "content": {
+              "title": "Technology Stack",
+              "subtitle": "A practical stack spanning data engineering, backend development, databases, cloud deployment, and visualization, supporting projects from data pipelines to application interfaces.",
+              "items": [
+                {
+                  "id": "0fm8ki0",
+                  "title": "Data Engineering",
+                  "description": "Building batch processing and analytical data pipelines.",
+                  "imageUrl": "",
+                  "tags": [
+                    "Spark",
+                    "Hadoop MapReduce",
+                    "Trino",
+                    "Hive",
+                    "ETL/ELT"
+                  ],
+                  "metadata": {},
+                  "detailBehavior": {
+                    "mode": "none"
+                  },
+                  "image": ""
+                },
+                {
+                  "id": "p52tmhm",
+                  "title": "Backend Development",
+                  "description": "Developing business logic and server-side applications.",
+                  "imageUrl": "",
+                  "tags": [
+                    "Python",
+                    "Java",
+                    "Django",
+                    "REST APIs",
+                    "WEB APPS"
+                  ],
+                  "metadata": {},
+                  "detailBehavior": {
+                    "mode": "none"
+                  },
+                  "image": ""
+                },
+                {
+                  "id": "fnx2589",
+                  "title": "Databases and Storage",
+                  "description": "Designing structured and unstructured data models.",
+                  "imageUrl": "",
+                  "tags": [
+                    "SQL",
+                    "MySQL",
+                    "MongoDB",
+                    "Redis",
+                    "Neo4j"
+                  ],
+                  "metadata": {},
+                  "detailBehavior": {
+                    "mode": "none"
+                  },
+                  "image": ""
+                },
+                {
+                  "id": "x3ygk0h",
+                  "title": "Data Analysis and Visualization",
+                  "description": "Transforming data results into interactive insights.",
+                  "imageUrl": "",
+                  "tags": [
+                    "Pandas",
+                    "Plotly Dash",
+                    "Tableau",
+                    "Power BI"
+                  ],
+                  "metadata": {},
+                  "detailBehavior": {
+                    "mode": "none"
+                  },
+                  "image": ""
+                },
+                {
+                  "id": "82ab2c1",
+                  "title": "Cloud and Development Tools",
+                  "description": "Supporting deployment, version control, and development workflows.",
+                  "imageUrl": "",
+                  "tags": [
+                    "Google Cloud",
+                    "Git",
+                    "Linux",
+                    "Docker",
+                    "Vercel"
+                  ],
+                  "metadata": {},
+                  "detailBehavior": {
+                    "mode": "none"
+                  },
+                  "image": ""
+                }
+              ]
+            },
+            "style": {
+              "padding": "medium",
+              "bgAccent": false,
+              "cardStyle": "glass",
+              "borderTop": true
+            },
+            "settings": {
+              "layout": "grid",
+              "columns": 2,
+              "showTags": true,
+              "showMetadata": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "page-projects",
+        "name": "Projects",
+        "slug": "projects",
+        "blocks": [
+          {
+            "id": "3uso7zx",
+            "type": "Collection",
+            "content": {
+              "title": "Selected Builds & Systems",
+              "subtitle": "Deployed tools, product systems, and technical experiments built across data, design, and automation.",
+              "items": [
+                {
+                  "id": "6j2xq4m",
+                  "title": "All You Can Make",
+                  "description": "A modular site builder that generates PRDs, sitemaps, block plans, and editable previews from guided inputs or AI prompts, with manual block editing, AI rewrite/rebuild, and HTML export.",
+                  "imageUrl": "",
+                  "tags": [
+                    "MODULAR DESIGN",
+                    "AI BLOCKS"
+                  ],
+                  "metadata": {},
+                  "detailBehavior": {
+                    "mode": "external",
+                    "target": "https://all-you-can-make.vercel.app/",
+                    "modalTitle": "All You Can Make",
+                    "modalBody": "A modular website design system that turns guided inputs or AI prompts into generated PRDs, sitemaps, block plans, and editable previews, with manual block editing, AI-assisted rewrite/rebuild, and static HTML export.",
+                    "expandedContent": "Expanded inline details content loaded with high efficiency metrics.",
+                    "actionLabel": "VIEW LIVE APP →"
+                  },
+                  "image": ""
+                },
+                {
+                  "id": "qinjz98",
+                  "title": "Image Stitcher",
+                  "description": "A lightweight image stitching tool for combining multiple uploads vertically or horizontally, with spacing, sizing, background controls, and lossless PNG export.",
+                  "imageUrl": "",
+                  "tags": [
+                    "FRONTEND TOOL",
+                    "PNG EXPORT"
+                  ],
+                  "metadata": {},
+                  "detailBehavior": {
+                    "mode": "external",
+                    "target": "https://www.imagestitcher.top/",
+                    "modalTitle": "Image Stitcher",
+                    "modalBody": "A modular, high-performance offline compiler layout optimized for standard static websites.",
+                    "expandedContent": "Expanded inline details content loaded with high efficiency metrics.",
+                    "actionLabel": "VIEW LIVE APP →"
+                  },
+                  "image": ""
+                }
+              ]
+            },
+            "style": {
+              "padding": "medium",
+              "bgAccent": false,
+              "cardStyle": "flat"
+            },
+            "settings": {
+              "layout": "grid",
+              "columns": 3,
+              "showTags": true,
+              "showMetadata": true
+            }
+          },
+          {
+            "id": "pq0j1r1",
+            "type": "Collection",
+            "content": {
+              "title": "Data & Analytics Projects",
+              "subtitle": "Selected data projects focused on large-scale processing, database systems, machine learning, and analytical visualization.",
+              "items": [
+                {
+                  "id": "u0sliu5",
+                  "title": "NYC Subway Data Platform & Analytics Pipeline",
+                  "description": "A large-scale data engineering pipeline for processing 110M+ NYC subway ridership records with Hadoop, Spark, Hive, Trino, and Airflow, producing analytics-ready layers and interactive congestion insights.",
+                  "imageUrl": "",
+                  "tags": [
+                    "SPARK",
+                    "TRINO"
+                  ],
+                  "metadata": {
+                    "Year": "2025",
+                    "Focus": "Data Engineering"
+                  },
+                  "detailBehavior": {
+                    "mode": "none"
+                  },
+                  "image": ""
+                },
+                {
+                  "id": "0d0olwf",
+                  "title": "Chronic Disease Risk Prediction & Data System",
+                  "description": "A health data system combining SQL workflows and machine learning to model insurance-style processes, integrate structured health features, and predict chronic disease risk with Random Forest classification.",
+                  "imageUrl": "",
+                  "tags": [
+                    "MYSQL",
+                    "RANDOM FOREST"
+                  ],
+                  "metadata": {
+                    "Year": "2024",
+                    "Focus": "SQL + ML"
+                  },
+                  "detailBehavior": {
+                    "mode": "none"
+                  },
+                  "image": ""
+                },
+                {
+                  "id": "95a1atf",
+                  "title": "High-Performance Data Storage & Retrieval",
+                  "description": "A multi-database storage project using MySQL, Redis, MongoDB, and Neo4j to support high-throughput access patterns, recommendation queries, and unstructured data visualization.",
+                  "imageUrl": "",
+                  "tags": [
+                    "REDIS",
+                    "NEO4J"
+                  ],
+                  "metadata": {
+                    "Year": "2024",
+                    "Focus": "Database Systems"
+                  },
+                  "detailBehavior": {
+                    "mode": "none"
+                  },
+                  "image": ""
+                }
+              ]
+            },
+            "style": {
+              "padding": "medium",
+              "bgAccent": false,
+              "cardStyle": "flat"
+            },
+            "settings": {
+              "layout": "grid",
+              "columns": 3,
+              "showTags": true,
+              "showMetadata": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "page-contact",
+        "name": "Contact",
+        "slug": "contact",
+        "blocks": [
+          {
+            "id": "bedgua0",
+            "type": "Collection",
+            "content": {
+              "title": "Let’s Connect",
+              "subtitle": "For opportunities, collaborations, or project discussions, you can reach me through email, LinkedIn, or GitHub.",
+              "items": [
+                {
+                  "id": "ghxw1xc",
+                  "title": "Email",
+                  "description": "The best way to reach me for opportunities, interviews, and project discussions.",
+                  "imageUrl": "",
+                  "tags": [
+                    "snow.zhao.xueyao@gmail.com"
+                  ],
+                  "metadata": {},
+                  "detailBehavior": {
+                    "mode": "external",
+                    "target": "https://mail.google.com/mail/?view=cm&fs=1&to=snow.zhao.xueyao@gmail.com",
+                    "modalTitle": "Email",
+                    "modalBody": "Best way to reach me for opportunities, interviews, and project discussions.",
+                    "expandedContent": "Expanded inline details content loaded with high efficiency metrics.",
+                    "actionLabel": "EMAIL ME →"
+                  },
+                  "image": ""
+                },
+                {
+                  "id": "6do1b0s",
+                  "title": "LinkedIn",
+                  "description": "Professional profile, experience, education, and career updates.",
+                  "imageUrl": "",
+                  "tags": [
+                    ""
+                  ],
+                  "metadata": {},
+                  "detailBehavior": {
+                    "mode": "external",
+                    "target": "https://www.linkedin.com/in/xueyaozhao/",
+                    "modalTitle": "LinkedIn",
+                    "modalBody": "Professional profile, experience, education, and career updates.",
+                    "expandedContent": "Expanded inline details content loaded with high efficiency metrics.",
+                    "actionLabel": "VIEW LINKEDIN →"
+                  },
+                  "image": ""
+                },
+                {
+                  "id": "w2rdlsr",
+                  "title": "GitHub",
+                  "description": "Code repositories for selected software, data engineering, and web application projects.",
+                  "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80",
+                  "tags": [
+                    ""
+                  ],
+                  "metadata": {},
+                  "detailBehavior": {
+                    "mode": "external",
+                    "target": "https://github.com/DI0NY",
+                    "modalTitle": "GitHub",
+                    "modalBody": "Code repositories for selected software, data engineering, and web application projects.",
+                    "expandedContent": "Expanded inline details content loaded with high efficiency metrics.",
+                    "actionLabel": "VIEW GITHUB →"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "padding": "medium",
+              "bgAccent": false,
+              "cardStyle": "flat"
+            },
+            "settings": {
+              "layout": "compact",
+              "columns": 3,
+              "showTags": true,
+              "showMetadata": true
+            }
+          }
+        ]
+      }
+    ],
+    "theme": {
+      "id": "minimalist-slate",
+      "name": "Minimalist Slate",
+      "fontFamilySans": "var(--font-sans)",
+      "fontFamilyHeader": "var(--font-display)",
+      "bgBase": "bg-zinc-50",
+      "bgSurface": "bg-white",
+      "bgSurfaceBorder": "border-zinc-200",
+      "textPrimary": "text-zinc-900",
+      "textSecondary": "text-zinc-500",
+      "accentColor": "bg-zinc-900",
+      "accentHover": "hover:bg-zinc-800",
+      "accentText": "text-zinc-900",
+      "bgMuted": "bg-zinc-100"
+    }
+  },
+  "editorState": {
+    "activePageId": "page-home",
+    "currentTab": "WebsitePreview"
+  }
+}

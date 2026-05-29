@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | XZ Builds</title>
+  
+  <!-- Font Preloads mapping visual standards -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets link -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Shared JS logic for popup modals and interaction -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Dynamic Compiled Header Navigation Layout -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="site-logo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-color)"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+        <span>XZ Builds</span>
+      </a>
+      <nav class="main-navigation">
+        <a href="index.html" class="active">Home</a>
+      <a href="about.html" class="">About</a>
+      <a href="projects.html" class="">Projects</a>
+      <a href="contact.html" class="">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Modular Content Segments Injection -->
+  <main>
+    
+  <!-- BLOCK SEGMENT: Hero (ID: block-hero) -->
+  <section class="block block-padding-medium  " style="">
+    <div class="container" style="">
+      
+      <div class="hero flex-align-left">
+        <div class="hero-content text-left">
+          <h1>Building reliable data systems and web tools.</h1>
+          <p class="subtitle">I work across data engineering, backend development, analytics, and deployed product-facing applications.</p>
+          <div class="actions">
+            <a href="projects.html" class="btn btn-primary">View Projects</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  
+
+  <!-- BLOCK SEGMENT: TextSection (ID: block-intro) -->
+  <section class="block block-padding-medium  " style="">
+    <div class="container" style="">
+      
+      <div class="text-section text-left align-left">
+        
+        <h2>About Me</h2>
+        <p class="text-pitch">I’m Xueyao Zhao, an Information Systems graduate focused on data engineering, backend development, and practical web applications. My work connects data workflows, system design, and user-facing tools.</p>
+      </div>
+      
+    </div>
+  </section>
+  
+
+  <!-- BLOCK SEGMENT: TextSection (ID: 2ocz4xg) -->
+  <section class="block block-padding-medium  block-border-top" style="">
+    <div class="container" style="">
+      
+      <div class="text-section text-left align-left">
+        <span class="badge">BUILT WITH MY OWN TOOL</span>
+        <h2>Built with All You Can Make</h2>
+        <p class="text-pitch">This portfolio is also a live use case of All You Can Make, my modular website design system. It turns guided inputs or AI prompts into generated site structures, editable blocks, live previews, and export-ready static HTML.</p>
+      </div>
+      
+    </div>
+  </section>
+  
+  </main>
+
+  <!-- Unified Footer Layout -->
+  <footer class="site-footer">
+    <div class="container">
+      <p style="margin-bottom: 8px">&copy; 2026 <strong>XZ Builds</strong>. Built with <strong>All You Can Make</strong>.</p>
+      <span style="font-size: 0.7rem; font-family: monospace; display: block; opacity: 0.65">Generated and customized with All You Can Make.</span>
+    </div>
+  </footer>
+
+  <!-- Global Modal Root Container (Ensures backdrop covers whole viewport without container containment) -->
+  <div id="static-modal-root">
+    
+  </div>
+
+</body>
+</html>

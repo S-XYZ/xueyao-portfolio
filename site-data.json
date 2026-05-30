@@ -4,7 +4,7 @@
     "id": "project-7g2h3k1",
     "name": "XZ Builds",
     "createdAt": "2023-10-04T12:00:00Z",
-    "updatedAt": "2026-05-29T02:55:21.878Z",
+    "updatedAt": "2026-05-30T02:09:55.089Z",
     "themeNotes": "The site adopts a clean and structured aesthetic with high contrast elements, focusing on a minimalist design that emphasizes the user's engineering background. The layout is functional, with a focus on showcasing projects and technical skills.",
     "answers": {
       "websiteType": "个人作品集",
@@ -85,7 +85,8 @@
               "title": "About Me",
               "subtitle": "",
               "text": "I’m Xueyao Zhao, an Information Systems graduate focused on data engineering, backend development, and practical web applications. My work connects data workflows, system design, and user-facing tools.",
-              "align": "left"
+              "align": "left",
+              "widthMode": "readable"
             },
             "style": {
               "padding": "medium",
@@ -100,7 +101,8 @@
               "title": "Built with All You Can Make",
               "subtitle": "BUILT WITH MY OWN TOOL",
               "text": "This portfolio is also a live use case of All You Can Make, my modular website design system. It turns guided inputs or AI prompts into generated site structures, editable blocks, live previews, and export-ready static HTML.",
-              "align": "left"
+              "align": "left",
+              "widthMode": "full"
             },
             "style": {
               "padding": "medium",
@@ -311,7 +313,7 @@
                   "metadata": {},
                   "detailBehavior": {
                     "mode": "external",
-                    "target": "https://all-you-can-make.vercel.app/",
+                    "target": "https://www.makewithall.com/",
                     "modalTitle": "All You Can Make",
                     "modalBody": "A modular website design system that turns guided inputs or AI prompts into generated PRDs, sitemaps, block plans, and editable previews, with manual block editing, AI-assisted rewrite/rebuild, and static HTML export.",
                     "expandedContent": "Expanded inline details content loaded with high efficiency metrics.",

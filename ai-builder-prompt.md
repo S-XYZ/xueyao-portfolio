@@ -81,7 +81,7 @@ Projects (/projects)
           detailBehavior:
             mode: external
             actionLabel: "VIEW LIVE APP →"
-            target: "https://all-you-can-make.vercel.app/"
+            target: "https://www.makewithall.com/"
         - title: "Image Stitcher"
           detailBehavior:
             mode: external
@@ -208,7 +208,7 @@ Contact (/contact)
       - Layout Design Context: "grid"
       - Tags: "MODULAR DESIGN, AI BLOCKS"
       - Interactivity Behavior:
-        - Mode: **external** | Action Label: "VIEW LIVE APP →" | External URL: `https://all-you-can-make.vercel.app/`
+        - Mode: **external** | Action Label: "VIEW LIVE APP →" | External URL: `https://www.makewithall.com/`
     - Item #2: "Image Stitcher"
       - Description: "A lightweight image stitching tool for combining multiple uploads vertically or horizontally, with spacing, sizing, background controls, and lossless PNG export."
       - Layout Design Context: "grid"
